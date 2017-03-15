@@ -1,0 +1,7 @@
+
+
+package com.niru;
+
+import java.io.Serializable; import javax.persistence.Column; import javax.persistence.Id; public class Account implements Serializable{ private String month; private int sales; public String getMonth() { return month; } public void setMonth(String month) { this.month = month; } public int getSales() { return sales; } public void setSales(int sales) { this.sales = sales; }
+
+}
